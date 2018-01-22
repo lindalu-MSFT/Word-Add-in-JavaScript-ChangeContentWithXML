@@ -11,7 +11,7 @@
 * [Additional resources](#additional-resources)
 
 <a name="summary"></a>
-##Summary
+## Summary
 The sample Word Add-in shows how to use JavaScript to extract Open XML from a potentially complex document. The sample also shows how to insert a selected fragment of Open XML into a document.
 
 The sample comes with a test document ComplexDoc.docx, which is set as the StartAction property of the task pane add-in. The document contains a mixture of images with various layout options and text. Make sure the document loads when you start debugging, and if not, check the StartAction property of the project.
@@ -54,7 +54,7 @@ It also contains the ChangeContentWithXMLWeb project, which includes:
 **Note** It is recommended that you select all the content between the two instructions as shown the first time you run the sample, so that you can see the full power of Open XML. You can experiment with selecting smaller sections after that.
 
 <a name="troubleshooting"></a>
-##Troubleshooting
+## Troubleshooting
 If the add-in starts with a blank document instead of the test document, ensure the **Start Document** property of the project is set to ComplexDoc.docx and not just to [New Word document].
 
 To do this, select the **ChangeContentWithXML** project in the Solution Explorer and view the properties in the Properties window. Under App you will see Start Action and Start Document listed.  The values for these should be:
